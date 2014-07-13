@@ -20,10 +20,12 @@ Run `grepity` for grep text from file
     Example: grepity localhost /etc/hosts
 
     Common options:
-        -i, --ignorecase                ignore case sensivity
+        -i, --ignorecase                 ignore case sensivity
         -w, --word                       match only full wordmatch
         -l, --line                       show line numbers
         -h, --help                       Help screen
+
+![Screenshot](https://github.com/kisakov/grepity/blob/master/example.jpg)
 
 ## Tests
 
