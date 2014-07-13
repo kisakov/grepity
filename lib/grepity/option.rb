@@ -5,13 +5,13 @@ module Grepity
     def self.parse
       options = {}
       OptionParser.new do |opts|
-        opts.banner = "Usage: #{$0} string file [OPTIONS]"
+        opts.banner = "Usage: #{$0} text file [OPTIONS]"
 
-        opts.on('-i', '--ignorecase', 'ignore case') do
+        opts.on('-i', '--ignorecase', 'ignore case sensivity') do
           options[:ignorecase] = Regexp::IGNORECASE
         end
 
-        opts.on('-w', '--word', 'only full word') do
+        opts.on('-w', '--word', 'match only full word') do
           options[:word] = true
         end
 

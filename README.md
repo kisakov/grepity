@@ -3,27 +3,37 @@
 TODO: Write a gem description
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'grepity'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install it from RubyGems.org:
 
     $ gem install grepity
 
+Or install it from GitHub.com:
+
+    $ git clone git@github.com:kisakov/grepity.git
+    $ rake install
+
 ## Usage
 
-TODO: Write usage instructions here
+Run `grepity` for grep text from file
+
+    Usage: grepity text file [OPTIONS]
+    Example: grepity localhost /etc/hosts
+
+    Common options:
+        -i, --ignorecase                ignore case sensivity
+        -w, --word                       match only full wordmatch
+        -l, --line                       show line numbers
+        -h, --help                       Help screen
+
+## Tests
+
+Use `rake test` to run tests
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/grepity/fork )
+1. Fork it ( https://github.com/kisakov/grepity/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+3. Ensure all tests passed (`rake test`)
+4. Commit your changes (`git commit -am 'Add some feature'`)
+5. Push to the branch (`git push origin my-new-feature`)
+6. Create a new Pull Request
