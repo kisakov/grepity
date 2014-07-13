@@ -25,7 +25,7 @@ Run `grepity` for grep text from file
         -l, --line                       show line numbers
         -h, --help                       Help screen
 
-![Screenshot](https://github.com/kisakov/grepity/blob/master/example.jpg)
+![Screenshot](https://raw.githubusercontent.com/kisakov/grepity/master/example.jpg)
 
 ## Tests
 
