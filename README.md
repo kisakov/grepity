@@ -1,6 +1,6 @@
 # Grepity
 
-TODO: Write a gem description
+Small analog for grep utility
 
 ## Installation
 Install it from RubyGems.org:
